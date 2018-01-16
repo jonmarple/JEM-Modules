@@ -1,0 +1,318 @@
+{
+  "version": "",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1725.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 1,
+        "device": 0,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "SEQ3",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        2.1920006275177002,
+        0.0,
+        0.0,
+        8.0,
+        1.0649988651275635,
+        0.0,
+        0.75000172853469849,
+        0.0,
+        1.7399992942810059,
+        0.0,
+        0.0,
+        0.0,
+        1.0499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        0.61499994993209839,
+        0.0,
+        0.0,
+        0.0,
+        1.4100010395050049,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.4850000143051147,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 1
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        330.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        1.0,
+        0.52799999713897705
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCO",
+      "pos": [
+        450.0,
+        0.0
+      ],
+      "params": [
+        -3.0
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCA",
+      "pos": [
+        540.0,
+        0.0
+      ],
+      "params": [
+        0.5
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        390.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        1.0,
+        0.52949970960617065
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCO",
+      "pos": [
+        510.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCA",
+      "pos": [
+        600.0,
+        380.0
+      ],
+      "params": [
+        0.5
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCMixer",
+      "pos": [
+        750.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        1.0,
+        0.33000007271766663,
+        0.19349990785121918
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        90.0,
+        380.0
+      ],
+      "params": [
+        0.77399998903274536,
+        0.69900012016296387,
+        0.65949976444244385,
+        0.98549985885620117
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCO",
+      "pos": [
+        210.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "VCA",
+      "pos": [
+        300.0,
+        380.0
+      ],
+      "params": [
+        0.5
+      ]
+    },
+    {
+      "plugin": "JEM-Modules",
+      "model": "Trigger",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 2,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 9,
+      "inputModuleId": 5,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 3,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 4,
+      "inputModuleId": 9,
+      "inputId": 5
+    }
+  ]
+}

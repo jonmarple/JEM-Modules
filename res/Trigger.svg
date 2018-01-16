@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="380"
+   viewBox="0 0 23.812501 100.54167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (unknown)"
+   sodipodi:docname="Trigger.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="28.480627"
+     inkscape:cy="170.63765"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1680"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-196.45832)"
+     style="display:inline">
+    <path
+       style="opacity:1;vector-effect:none;fill:#525252;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.48607069;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="M 0,196.45831 H 23.8125 V 296.99999 H 0 Z"
+       id="rect817"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.969697;stroke:none;stroke-width:0.26458332"
+       x="3.3932254"
+       y="289.41431"
+       id="text3855"><tspan
+         sodipodi:role="line"
+         id="tspan3853"
+         x="3.3932254"
+         y="289.41431"
+         style="font-size:2.82222223px;fill:#ffffff;fill-opacity:0.969697;stroke-width:0.26458332">JEM Modules</tspan></text>
+    <path
+       style="fill:#2e277d;fill-opacity:1;stroke:none;stroke-width:0.1889881;stroke-opacity:1"
+       d="m 8.8444555,211.84806 c -1.4820741,-0.39961 -3.6987109,-1.95115 -3.3235423,-2.32632 0.07116,-0.0712 1.2975537,-1.09033 2.7253247,-2.26483 l 2.5959461,-2.13545 3.470492,-0.004 3.47049,-0.004 -0.13157,0.8977 c -0.615156,4.19713 -4.742593,6.93237 -8.8071405,5.83645 z"
+       id="path5592"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3851"
+       transform="translate(-3.5639121,-0.99540096)"
+       style="fill:#ffffff;fill-opacity:0.96875;stroke:none;stroke-opacity:1">
+      <text
+         id="text3847"
+         y="205.52974"
+         x="7.7485061"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.96875;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;fill-opacity:0.96875;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+           y="205.52974"
+           x="7.7485061"
+           sodipodi:role="line"
+           id="tspan14">LAUNCH</tspan></text>
+    </g>
+  </g>
+</svg>
