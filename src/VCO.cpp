@@ -1,4 +1,5 @@
 #include "JEM-Modules.hpp"
+#include <iostream>
 
 struct VCO : Module {
 	enum ParamIds {
@@ -45,8 +46,8 @@ void VCO::step() {
 	float sine = sinf(2 * M_PI * phase);
 	outputs[SINE_OUTPUT].value = 5.0 * sine;
 
-	// Blink light at 1Hz
-	blinkPhase += deltaTime;
+	// Blink light at rate defined by pitch
+	blinkPhase += deltaTime * (pitch / 2.5 + 2.0);
 	if (blinkPhase >= 1.0)
 		blinkPhase -= 1.0;
 	lights[BLINK_LIGHT].value = (blinkPhase < 0.5) ? 1.0 : 0.0;
@@ -70,11 +71,11 @@ VCOWidget::VCOWidget() {
 	addChild(createScrew<ScrewSilver>(Vec(RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 	addChild(createScrew<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
-	addParam(createParam<RoundBlackKnob>(Vec(28, 87), module, VCO::PITCH_PARAM, -3.0, 3.0, 0.0));
+	addParam(createParam<RoundBlackKnob>(Vec(26, 87), module, VCO::PITCH_PARAM, -3.0, 3.0, 0.0));
 
 	addInput(createInput<PJ301MPort>(Vec(33, 186), module, VCO::PITCH_INPUT));
 
 	addOutput(createOutput<PJ301MPort>(Vec(33, 275), module, VCO::SINE_OUTPUT));
 
-	addChild(createLight<MediumLight<BlueLight>>(Vec(41, 59), module, VCO::BLINK_LIGHT));
+	addChild(createLight<MediumLight<BlueLight>>(Vec(40, 66), module, VCO::BLINK_LIGHT));
 }

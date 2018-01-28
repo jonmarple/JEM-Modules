@@ -47,10 +47,10 @@ VCAWidget::VCAWidget() {
 	addChild(createScrew<ScrewSilver>(Vec(15, 365)));
 	addChild(createScrew<ScrewSilver>(Vec(box.size.x-30, 365)));
 
-  addParam(createParam<RoundBlackKnob>(Vec(27, 57), module, VCA::LEVEL_PARAM, 0.0, 1.0, 0.5));
+  addParam(createParam<RoundBlackKnob>(Vec(26, 87), module, VCA::LEVEL_PARAM, 0.0, 1.0, 0.5));
 
-	addInput(createInput<PJ301MPort>(Vec(11, 113), module, VCA::EXP_INPUT));
-	addInput(createInput<PJ301MPort>(Vec(11, 156), module, VCA::IN_INPUT));
+	addInput(createInput<PJ301MPort>(Vec(33, 157), module, VCA::EXP_INPUT));
+	addInput(createInput<PJ301MPort>(Vec(33, 216), module, VCA::IN_INPUT));
 
-	addOutput(createOutput<PJ301MPort>(Vec(54, 156), module, VCA::OUT_OUTPUT));
+	addOutput(createOutput<PJ301MPort>(Vec(33, 275), module, VCA::OUT_OUTPUT));
 }
