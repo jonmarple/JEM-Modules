@@ -7,7 +7,7 @@ Faceplates are in need of an update so you can see what each module is, but they
 ## VCA
     Simple voltage controlled amplifier with in/outs, mod input, and a level knob.    
 ## Trigger
-    Launch button to trigger gates or other inputs. Has a launch function to hold the gate and four separate outputs.    
+    Launch button to trigger gates or other inputs. Has a lock function to hold the gate and four separate outputs.    
     
 ### TODO
 * ADSR
