@@ -8,18 +8,22 @@ extern Plugin *plugin;
 // module widgets //
 ////////////////////
 
-struct VCOWidget : ModuleWidget {
+struct VCOWidget : ModuleWidget
+{
 	VCOWidget();
 };
 
-struct VCAWidget : ModuleWidget {
+struct VCAWidget : ModuleWidget
+{
 	VCAWidget();
 };
 
-struct TriggerWidget : ModuleWidget {
+struct TriggerWidget : ModuleWidget
+{
 	TriggerWidget();
 };
 
-struct EnvelopeWidget : ModuleWidget {
+struct EnvelopeWidget : ModuleWidget
+{
   EnvelopeWidget();
 };
