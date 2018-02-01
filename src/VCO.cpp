@@ -18,10 +18,8 @@ struct VCO : Module {
 		BLINK_LIGHT,
 		NUM_LIGHTS
 	};
-
 	float phase = 0.0;
 	float blinkPhase = 0.0;
-
 	VCO() : Module(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS) {}
 	void step() override;
 };
@@ -62,7 +60,7 @@ VCOWidget::VCOWidget() {
 	{
 		SVGPanel *panel = new SVGPanel();
 		panel->box.size = box.size;
-		panel->setBackground(SVG::load(assetPlugin(plugin, "res/VCO-1.svg")));
+		panel->setBackground(SVG::load(assetPlugin(plugin, "res/VCO.svg")));
 		addChild(panel);
 	}
 

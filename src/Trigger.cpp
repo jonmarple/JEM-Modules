@@ -16,9 +16,7 @@ struct Trigger : Module {
     OUT4_OUTPUT,
     NUM_OUTPUTS
   };
-
   bool gateOn, launchReleased;
-
   Trigger() : Module(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS) {
     reset();
   }

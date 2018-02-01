@@ -14,8 +14,8 @@
    viewBox="0 0 23.812501 100.54167"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (unknown)"
-   sodipodi:docname="VCO-1.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="VCO.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-15.009696"
-     inkscape:cy="209.49065"
+     inkscape:zoom="11.2"
+     inkscape:cx="31.329589"
+     inkscape:cy="25.107019"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,10 +37,11 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="1680"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -140,7 +141,7 @@
            height="17.5"
            x="-102.85714"
            y="330.71429" /></flowRegion><flowPara
-         id="flowPara884"></flowPara></flowRoot>    <g
+         id="flowPara884" /></flowRoot>    <g
        aria-label="sine"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text888">

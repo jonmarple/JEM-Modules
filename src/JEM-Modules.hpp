@@ -19,3 +19,7 @@ struct VCAWidget : ModuleWidget {
 struct TriggerWidget : ModuleWidget {
 	TriggerWidget();
 };
+
+struct EnvelopeWidget : ModuleWidget {
+  EnvelopeWidget();
+};
