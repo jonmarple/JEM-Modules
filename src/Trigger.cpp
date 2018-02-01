@@ -24,36 +24,36 @@ struct Trigger : Module {
   void reset() override {
     gateOn = false;
     launchReleased = true;
-    for (int i = 0; i < NUM_OUTPUTS; i++) {
+    for(int i = 0; i < NUM_OUTPUTS; i++) {
       outputs[i].value = 0.0;
     }
   }
 };
 
 void Trigger::step() {
-  if (params[LOCK_PARAM].value == 0) {
-    if (params[LAUNCH_PARAM].value > 0 && gateOn == false && launchReleased == true) {
+  if(params[LOCK_PARAM].value == 0) {
+    if(params[LAUNCH_PARAM].value > 0 && gateOn == false && launchReleased == true) {
       gateOn = true;
       launchReleased = false;
-      for (int i = 0; i < NUM_OUTPUTS; i++) {
+      for(int i = 0; i < NUM_OUTPUTS; i++) {
         outputs[i].value = 1.0;
       }
     }
-    else if (params[LAUNCH_PARAM].value > 0 && gateOn == true && launchReleased == true) {
+    else if(params[LAUNCH_PARAM].value > 0 && gateOn == true && launchReleased == true) {
       gateOn = false;
       launchReleased = false;
-      for (int i = 0; i < NUM_OUTPUTS; i++) {
+      for(int i = 0; i < NUM_OUTPUTS; i++) {
         outputs[i].value = 0.0;
       }
     }
-    if (params[LAUNCH_PARAM].value == 0){
+    if(params[LAUNCH_PARAM].value == 0){
         launchReleased = true;
     }
   }
   else {
     gateOn = false;
     launchReleased = true;
-    for (int i = 0; i < NUM_OUTPUTS; i++) {
+    for(int i = 0; i < NUM_OUTPUTS; i++) {
       outputs[i].value = params[LAUNCH_PARAM].value;
     }
   }

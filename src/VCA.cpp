@@ -21,7 +21,7 @@ struct VCA : Module {
 static void stepChannel(Input &in, Param &level, Input &exp, Output &out) {
 	float v = in.value * level.value;
 	const float expBase = 50.0;
-	if (exp.active)
+	if(exp.active)
 		v *= rescalef(powf(expBase, clampf(exp.value / 10.0, 0.0, 1.0)), 1.0, expBase, 0.0, 1.0);
 	out.value = v;
 }

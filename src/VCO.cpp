@@ -37,7 +37,7 @@ void VCO::step() {
 
 	// Accumulate the phase
 	phase += freq * deltaTime;
-	if (phase >= 1.0)
+	if(phase >= 1.0)
 		phase -= 1.0;
 
 	// Compute the sine output
@@ -46,7 +46,7 @@ void VCO::step() {
 
 	// Blink light at rate defined by pitch
 	blinkPhase += deltaTime * (pitch / 2.5 + 2.0);
-	if (blinkPhase >= 1.0)
+	if(blinkPhase >= 1.0)
 		blinkPhase -= 1.0;
 	lights[BLINK_LIGHT].value = (blinkPhase < 0.5) ? 1.0 : 0.0;
 }

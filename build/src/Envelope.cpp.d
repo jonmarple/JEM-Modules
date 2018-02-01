@@ -8,4 +8,4 @@ build/src/Envelope.cpp.o: src/Envelope.cpp src/JEM-Modules.hpp \
  ../../include/../ext/oui-blendish/blendish.h \
  ../../include/../ext/nanosvg/src/nanosvg.h ../../include/events.hpp \
  ../../dep/include/GL/glew.h ../../dep/include/GLFW/glfw3.h \
- ../../include/components.hpp
+ ../../include/components.hpp ../../include/dsp/digital.hpp
