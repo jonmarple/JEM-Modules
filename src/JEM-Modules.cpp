@@ -13,5 +13,6 @@ void init( rack::Plugin *p )
 	p->addModel( createModel<VCAWidget>( "JEM-Modules", "VCA", "VCA", AMPLIFIER_TAG ) );
 	p->addModel( createModel<TriggerWidget>( "JEM-Modules", "Trigger", "Launch", CONTROLLER_TAG ) );
   p->addModel( createModel<EnvelopeWidget>( "JEM-Modules", "Envelope", "ADSR", ENVELOPE_GENERATOR_TAG ) );
+  p->addModel( createModel<SequencerWidget>( "JEM-Modules", "Sequencer", "RUN", SEQUENCER_TAG ) );
 
 }

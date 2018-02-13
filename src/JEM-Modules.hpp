@@ -27,3 +27,8 @@ struct EnvelopeWidget : ModuleWidget
 {
   EnvelopeWidget();
 };
+
+struct SequencerWidget : ModuleWidget
+{
+  SequencerWidget();
+};
